@@ -1,0 +1,46 @@
+</table>
+<table class="mainContent" cellspacing="0">
+<tr>
+  <td>
+    
+    <form id="editorForm" name="editorForm" action="?admin=quickinfo&amp;do=[do]" method="post" onsubmit="return(DZCP.submitButton())">
+    <table class="hperc" cellspacing="1">
+      <tr>
+        <td class="contentHead" align="center" colspan="2"><span class="fontBold">[head]</span></td>
+      </tr>
+      [error]
+      <tr>
+        <td class="contentMainTop"><span class="fontBold">[titel]:</span></td>
+        <td class="contentMainFirst" align="center">
+          <input type="text" name="titel" value="[e_titel]" class="inputField_dis"
+          onfocus="this.className='inputField_en';"
+          onblur="this.className='inputField_dis';" />
+        </td>
+      </tr>
+      <tr>
+        <td class="contentMainFirst" align="center" colspan="3">
+        <textarea id="inhalt" name="inhalt" cols="0" rows="0" class="editorStyleWord">[e_inhalt]</textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="contentMainTop"><span class="fontBold">[more]:</span></td>
+        <td class="contentMainFirst" align="center">
+          <input type="text" name="more" value="[e_more]" class="inputField_dis"
+          onfocus="this.className='inputField_en';"
+          onblur="this.className='inputField_dis';" />
+        </td>
+      </tr>
+      <tr>
+        <td class="contentBottom" colspan="2"><input id="contentSubmit" type="submit" value="[what]" class="submit" /> </td>
+      </tr>
+    </table>
+    </form>
+  </td>
+</tr>
+</table>
+<table class="hperc" cellspacing="0">
+<tr>
+  <td>
+    <div id="previewDIV"></div>
+  </td>
+</tr>
